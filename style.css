@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pridi", serif;
+    background-color: #000;
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/25/11/00/wheat-8087042_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+nav {
+    position: relative;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    border-bottom: 2.5px solid #000;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 3rem;
+}
+
+#main {
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(110, 114, 114);
+}
+
+#sum {
+    background-color: #000;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+}
